@@ -3,6 +3,11 @@
      var Ballyveloc = 0;
      var mousex = 0;
      var mousey = 0;
+  
+  
+  
+  
+  
      var bally = 0;
      var score = 0;
      var ballx = 0;
