@@ -19,6 +19,7 @@
      Ball.style.zIndex = 999;
      Ball.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Disk_pack1.svg/1200px-Disk_pack1.svg.png";
      Ball.id = 'Ball';
+    
      Ball.style.position = 'fixed';
      Ball.width = ballwidth;
      Ball.select = 'none';
