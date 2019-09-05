@@ -2,23 +2,31 @@
  Ball Bookmarklet
 </h1>
 <br>
-<a id="add"href="javascript: var scr = document.createElement('script'); scr.type = 'text/javascript'; scr.src = 'https://beasleydog.github.io/ballbookmarklet/script.js'; document.body.appendChild(scr);">
+<p id="add">
+  <a id="text"href="javascript: var scr = document.createElement('script'); scr.type = 'text/javascript'; scr.src = 'https://beasleydog.github.io/ballbookmarklet/script.js'; document.body.appendChild(scr);scr.onerror=function(){alert('Sorry, you can't play on this page!')}">
 Ball
-</a>
-<p>
- ↑ Drag that to your bookmark bar.     
+  </a>
+</p>
+<p id="center">
+ ↑ Drag that to your bookmark bar ↑     
 </p> 
  
 <br>
 <br>
-<p>
+<p id="center">
  To use it, click the bookmark on any page. Or, you can type "ball" in the search bar.
 </p>
 <style>
+  #text{
+    color:black; 
+ text-decoration:none; 
+    font-weight:bold;
+  }
  #center{
   text-align:center;
  }
 #add{
+ 
  position:block;
  text-align:center;
  margin-left:auto;
@@ -28,5 +36,6 @@ text-decoration:none;
   color:black;
   padding:5px 5px 5px 5px;
  width:25px;
+  
 }  
 </style>
