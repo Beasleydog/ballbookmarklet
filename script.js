@@ -1,13 +1,8 @@
- if (document.getElementById('Ball') == null) {
+if (document.getElementById('Ball') == null) {
      var Ballxveloc = 0;
      var Ballyveloc = 0;
      var mousex = 0;
      var mousey = 0;
-  
-  
-  
-  
-  
      var bally = 0;
      var score = 0;
      var ballx = 0;
@@ -75,8 +70,8 @@
                  toldscore = 1;
              }
          }
-         if (ballx < 0 || ballx > 1450) {
-             Ballxveloc *= -.8;
+         if (ballx < 0 || ballx > screen.width) {
+             Ballxveloc *= -1;
          }
          if (bally + ballheight - 5 < mousey && mousey - ballheight - 5 < bally) {
              if (ballx < mousex + 10 && mousex < ballx + ballwidth + 10) {
