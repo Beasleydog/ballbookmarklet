@@ -15,9 +15,11 @@ if (document.getElementById('Ball') == null) {
      var mouseyveloc = 0;
      var lmousex = 0;
      var lmousey = 0;
+  var count = 0;
+  var srcs = ["https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794408921/home/Circle1.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794411369/home/Circle2.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794414309/home/Circle3.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794417056/home/Circle4.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794420589/home/Circle5.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794423543/home/Circle6.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794426331/home/Circle7.png"];
      var Ball = document.createElement('img');
      Ball.style.zIndex = 999;
-     Ball.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Disk_pack1.svg/1200px-Disk_pack1.svg.png";
+     Ball.src = "https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794408921/home/Circle1.png";
      Ball.id = 'Ball';
     
      Ball.style.position = 'fixed';
@@ -80,6 +82,11 @@ if (document.getElementById('Ball') == null) {
                  if (changescore == 0) {
                      score += 1;
                      changescore = 1;
+                   count++;
+                   if (count+1>srcs.length){
+                     count=0;
+                   }
+                   document.getElementById("Ball").src = srcs[count]
                  }
                  Ballxveloc = (ballx + (ballwidth / 2) - mousex) / 7;
                  if (Ballxveloc > 0) {
