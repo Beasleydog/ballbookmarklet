@@ -16,7 +16,8 @@ if (document.getElementById('Ball') == null) {
      var lmousex = 0;
      var lmousey = 0;
   var count = 0;
-  var srcs = ["https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794408921/home/Circle1.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794411369/home/Circle2.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794414309/home/Circle3.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794417056/home/Circle4.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794420589/home/Circle5.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794423543/home/Circle6.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794426331/home/Circle7.png"];
+  var srcs = ["https://lh3.googleusercontent.com/a-/AAuE7mA1FCzBmt4foSrODISfyXWNHXF_YyQgi4QOpD4rMA=s56-c-k-no",
+   "https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794408921/home/Circle1.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794411369/home/Circle2.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794414309/home/Circle3.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794417056/home/Circle4.png","https://lh3.googleusercontent.com/a-/AAuE7mA1FCzBmt4foSrODISfyXWNHXF_YyQgi4QOpD4rMA=s56-c-k-no", "https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794420589/home/Circle5.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794423543/home/Circle6.png","https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794426331/home/Circle7.png"];
      var Ball = document.createElement('img');
      Ball.style.zIndex = 999;
      Ball.src = "https://sites.google.com/site/ballbookmarklet/_/rsrc/1567794408921/home/Circle1.png";
