@@ -1,3 +1,5 @@
+//Frankdog made this plz stop ban :(
+
 if (document.getElementById('Ball') == null) {
      var Ballxveloc = 0;
      var Ballyveloc = 0;
